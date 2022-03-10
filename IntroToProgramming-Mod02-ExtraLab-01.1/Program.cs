@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestingNamespace
 {
-    internal class TestingClass
+    internal class SayHello
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
             Console.ReadLine();
         }
     }
